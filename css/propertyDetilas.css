@@ -1,0 +1,41 @@
+body{
+    background-color: #f8f8f8;
+}
+
+/* carousel styles */
+.carousel-item{
+    width: 100%;
+    height: 550px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Sale Details */
+.gap{
+    gap: 2em;
+}
+
+.property_main{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.single_info{
+    gap: 0.5em;
+}
+
+.property_left{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 540px;
+}
+.property_right{
+    flex: 1;
+}

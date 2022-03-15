@@ -1,0 +1,36 @@
+/* Tablet Mode */@media (max-width:990px){
+    .nav_item {
+        display: none;
+    }
+    
+    .btn_grap {
+        display: none;
+    }
+    
+    .fixed_btn {
+        display: block;
+    }
+    .bars{
+        display: block;
+    }
+}
+/* Tablet Mode */@media (max-width:768px){
+    .approval_content {
+        padding: 3em;
+    }
+}
+/* Mobile Mode */@media (max-width:520px){
+    .footer .gap{
+        justify-content: center;
+        width: 100%;
+    }
+    .footer.img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .approval_content {
+      text-align: center;
+    }
+}

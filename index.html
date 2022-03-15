@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Url -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://static.rdc.moveaws.com/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Own Css FIle -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Responsive Css -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <title>Realtor Clone</title>
+</head>
+<body>
+    
+    <!-- Header Start Here -->
+    <header class="header">
+        <div class="container">
+            <!-- Navbar Start Here -->
+            <nav class="nav_bar">
+                <!-- Mobile Hand -->
+                <div class="bars mt-2">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                   </div>
+               <div class="navigation">
+                <a href="index.html">
+                    <img src="./images/rdc-logo-default.svg" alt="This is logo" class="logo">
+                </a>
+                <div class="nav_item mt-2">
+                    <ul>
+                        <li><a class="nav_links active" href="#">Buy</a></li>
+                        <li><a class="nav_links" href="#">Sell</a></li>
+                        <li><a class="nav_links" href="./pages/rent.html">Rent</a></li>
+                        <li><a class="nav_links" href="#">Mortgage</a></li>
+                        <li><a class="nav_links" href="#">Find Realtor</a></li>
+                        <li><a class="nav_links" href="#">My Home</a></li>
+                        <li><a class="nav_links" href="#">News & Insight</a></li>
+                    </ul>
+                </div>
+               </div>
+                <!-- Button  -->
+                <div class="btn_grap mt-2">
+                    <a class="mange" href="#">Manage rentals</a>
+                    <a class="mange" href="#">Adverties</a>
+                </div>
+                <!-- Login & Singup  -->
+                <div class="btn_grap mt-2 fixed_btn">
+                    <a class="transpar app_btn login" href="#">Login</a>
+                    <a class="app_btn singup" href="#">Sing up</a>
+                </div>
+                <!-- Overlay -->
+                <div class="overlay"></div>
+                <!-- Login Form -->
+                <div class="login_form">
+                    <h3 class="mb-3">Log in or create an account</h3>
+                    <form class="form">
+                        <input type="email" placeholder="Enter your email..." required>
+                        <button type="submit" class="app_btn">Continue</button>
+                        <div class="or text-center"><p>Or</p></div>
+                        <button type="submit" class="app_btn"><i class="fa-brands fa-google"></i> Continue With Google</button>
+                        <button type="submit" class="app_btn"><i class="fa-brands fa-facebook-f"></i> Continue With Facebook</button>
+                        <button type="submit" class="app_btn"><i class="fa-brands fa-apple"></i> Continue With Apple</button>
+                        <button type="submit" class="app_btn"><i class="fa-solid fa-envelope"></i> Continue With Email</button>
+                    </form>
+                    <div class="text-center mt-4">
+                        <h5 style="margin-bottom: 0;">Are you a real estate agent?</h5>
+                        <a href="#">Login</a> or <a href="#">create an account</a> here
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <p style="margin-bottom: 0;">By creating an account you agree to Realtor.com's</p>
+                        <a href="#">Terms Of Use</a> and <a href="#">Privacy Policy</a> here
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar Ends Here -->
+            <!-- Mobile Navbar Start  -->
+            <nav class="mb_navbar">
+                <a href="index.html">
+                    <img src="./images/rdc-logo-default.svg" alt="This is logo" class="logo">
+                </a>
+                    <ul>
+                        <li><a class="nav_links active" href="#">Buy</a></li>
+                        <li><a class="nav_links" href="#">Sell</a></li>
+                        <li><a class="nav_links" href="./pages/rent.html">Rent</a></li>
+                        <li><a class="nav_links" href="#">Mortgage</a></li>
+                        <li><a class="nav_links" href="#">Find Realtor</a></li>
+                        <li><a class="nav_links" href="#">My Home</a></li>
+                        <li><a class="nav_links" href="#">News & Insight</a></li>
+                    </ul>
+            </nav>
+            <!-- Mobile Navbar Ends -->
+        </div>
+    </header>
+    <!-- Header Ends Here -->
+
+    <!-- Home Section Start Here -->
+    <section class="home">
+        <div class="container">
+            <div class="home_content">  
+                <h1>To each their home.</h1>
+                <p>Let’s find a home that’s perfect for you</p>
+                <ul class="mt-4">
+                    <li><a href="#" class="nav_links active">Buy</a></li>
+                    <li><a href="#" class="nav_links">Rent</a></li>
+                    <li><a href="#" class="nav_links">Sell</a></li>
+                    <li><a href="#" class="nav_links">Pre-approval</a></li>
+                    <li><a href="#" class="nav_links">Just Sold</a></li>
+                    <li><a href="#" class="nav_links">Home Value</a></li>
+                </ul>
+                <div class="search mt-4">
+                    <input type="text" placeholder="Address, School, City, Zip Or Neighborhood">
+                    <div class="search_box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Section Ends Here -->
+
+    <!--  Listings Property Section Start Here-->
+    <section class="sec_p property_listing">
+        <div class="container">
+            <div class="property-content">
+                <h3 class="title">New Listings in Memphis, TN</h3>
+                <a href="#">View All 233 New Listings</a>
+            </div>
+            <div class="row mt-4 g-4" id="innerList">
+                <!-- Using Javascript Render Data -->
+            </div>
+            <div class="row mt-5">
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                    <div class="proerty_sold text-center">
+                       <h1 style="margin-bottom: 5px;"> <a href="#">756</a></h1>
+                       <p class="text-center fs-5">Homes for sale</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                    <div class="proerty_sold text-center">
+                       <h1 style="margin-bottom: 5px;"> <a href="#">19</a></h1>
+                       <p class="text-center fs-5">Open houses</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                    <div class="proerty_sold text-center">
+                       <h1 style="margin-bottom: 5px;"> <a href="#">2000</a></h1>
+                       <p class="text-center fs-5">Foreclosures</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                    <div class="proerty_sold text-center">
+                       <h1 style="margin-bottom: 5px;"> <a href="#">756</a></h1>
+                       <p class="text-center fs-5">Homes for sale</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Listings Property Section Ends Here-->
+
+    <!-- Property Banner Start Here -->
+    <section class="property_banner sec_p">
+        <div class="container">
+            <div class="text-center">
+                <p>Trends</p>
+                <h3>Tony Stewart’s $30M Indiana Ranch Is the <br> Week’s Most Popular Home</h3>
+                <a href="#" class="app_btn mt-4">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Property Banner Ends Here -->
+
+    <!-- Approval Section Start Here -->
+    <section class="approval">
+       <div class="row">
+           <div class="col-lg-6 col-md-12">
+               <div class="approval_img">
+                   <img src="./images/hp-hero-mortgage-desktop.jpg" alt="This is demo images">
+               </div>
+           </div>
+           <div class="col-lg-6 col-md-12">
+               <div class="approval_content">
+                  <h1>Need a home loan? Get pre-approved</h1>
+                  <p>Find a lender who can offer competitive mortgage rates and help you with pre-approval.</p>
+                  <a href="#" class="app_btn">Get pre-approved now</a>
+               </div>
+           </div>
+       </div>
+    </section>
+    <!-- Approval Section Ends Here -->
+
+    <!-- Footer Section Start Here -->
+    <footer class="footer">
+        <div class="container">
+           <div class="footer_container">
+            <div class="d-flex gap">
+                <div class="icon">
+                    <a href="https://facebook.com">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://facebook.com">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://facebook.com">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://facebook.com">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://facebook.com">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://facebook.com">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+               </div>
+               <!-- Images -->
+               <div class="footer img">
+                   <img src="./images/google-play.png" alt="This is demo images">
+                   <img src="./images/apple.png" alt="This is demo images">
+               </div>
+           </div>
+           <!-- Footer Navbar -->
+           <div class="footer_nav mt-3">
+               <ul class="d-flex gap">
+                   <li><a href="#" class="nav_links">About us</a></li>
+                   <li><a href="#" class="nav_links">Careers</a></li>
+                   <li><a href="#" class="nav_links">Feedback</a></li>
+                   <li><a href="#" class="nav_links">Media room</a></li>
+                   <li><a href="#" class="nav_links">Ad Choices</a></li>
+                   <li><a href="#" class="nav_links">Advertise with us</a></li>
+                   <li><a href="#" class="nav_links">Agent support</a></li>
+                   <li><a href="#" class="nav_links">Privacy</a></li>
+                   <li><a href="#" class="nav_links">Terms</a></li>
+                   <li><a href="#" class="nav_links">Home Made</a></li>
+                   <li><a href="#" class="nav_links">Tech Blog</a></li>
+                   <li><a href="#" class="nav_links">Sitemap</a></li>
+               </ul>
+           </div>
+        </div>
+    </footer>
+    <!-- Footer Section Ends Here -->
+
+
+
+
+
+   <!-- Bootstrap Js File  -->
+   <script
+   src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+   crossorigin="anonymous"
+ ></script>
+
+ <!-- Jquery Url here -->
+ <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<!-- Main Js File -->
+<script type="module" src="./js/app.js"></script>
+
+
+</body>
+</html>
